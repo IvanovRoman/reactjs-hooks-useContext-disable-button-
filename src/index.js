@@ -11,8 +11,17 @@ function App() {
   return (
     <div className="App">
       <CustomContextProvider>
+        <h2>Действие 1</h2>
         <Input />
-        <Button />
+        <Button url="http://ya.ru" />
+        <Items />
+        <h2>Действие 2</h2>
+        <Input />
+        <Button url="http://ya.ru" />
+        <Items />
+        <h2>Действие 3</h2>
+        <Input />
+        <Button url="http://ya.ru" />
         <Items />
       </CustomContextProvider>
     </div>
