@@ -7,10 +7,7 @@ const Items = () => {
   return (
     <div>
       {names.map((item, i) => (
-        <div key={i}>
-          {item.url}
-          {/* {item.name} {item.surname} */}
-        </div>
+        <div key={i}>{item.url}</div>
       ))}
     </div>
   );
