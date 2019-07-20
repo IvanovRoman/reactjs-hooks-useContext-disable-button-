@@ -8,20 +8,16 @@ import Input from "./components/Input";
 import Items from "./components/Items";
 
 function App() {
+  // const { bind } = useContext(CustomContext);
+
   return (
     <div className="App">
       <CustomContextProvider>
         <h2>Действие 1</h2>
         <Input />
-        <Button url="http://ya.ru" />
-        <Items />
-        <h2>Действие 2</h2>
-        <Input />
-        <Button url="http://ya.ru" />
-        <Items />
-        <h2>Действие 3</h2>
-        <Input />
-        <Button url="http://ya.ru" />
+        <Button />
+        <Button />
+        <Button />
         <Items />
       </CustomContextProvider>
     </div>
